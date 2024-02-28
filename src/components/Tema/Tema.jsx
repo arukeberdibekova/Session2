@@ -28,7 +28,7 @@ const [state,dispatch]=useReducer(reducer,initialState)
         }>
         <button onClick={toggleTema}>change</button>
          <h3 className={state.darkMode ? classes['black'] : classes['white']}>
-            kjh
+            
          </h3>
         </div>
     )
